@@ -1,0 +1,174 @@
+/* color de fondo navbar */
+.bg-black{
+    background-color: black;
+} 
+/* fin color de fondo navbar */
+
+/* fondo redes */
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+/* fin fondo redes */
+
+/* Cambio de color redes */
+.fa-2x.fa-brands.fa-github:hover{
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+}
+
+.fa-2x.fa-brands.fa-linkedin:hover{
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+}
+
+.fa-2x.fa-solid.fa-user-lock:hover{
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+}
+/* Fin cambio de color redes */
+
+/* Inicion estilo imagen banner de fondo */
+section.banner{
+    background-image: url(/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
+/* Fin estilo imagen banner de fondo */
+
+/* Inicio estilo texto banner */
+h1.intro{
+    padding-top: 10%;
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(250, 250, 250)
+}
+/* Fin estilo texto banner */
+
+/* espacio del formulario 100% */
+.login{
+    height: 82vh;
+}
+/* espacio del formulario 100% */
+
+/* espacio formulario */
+.formulariologin{
+    margin-top: 15%;
+}
+/* espacio formulario */
+
+/* estilos redes,banner,info */
+.link{
+    text-decoration: none;
+    color: #000}
+/* estilos redes,banner,info */
+
+/* footerPanel */
+.footeralfondo{
+    margin-top: 100vh;
+}
+/* footerPanel */
+
+
+/* stilos navbar vertical */
+nav.vertical{
+    float: left;
+    margin-left: 0rem;
+}
+
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 1rem 0;
+   
+}
+a, a:hover{
+    text-decoration: none;
+    color: #000;
+}
+/* stilos navbar vertical */
+
+/* seccion educación */
+.educacion{
+    text-align: right;
+    margin-top: 4.5rem;
+    margin-right: -5.5rem;
+}
+/* seccion educación */
+
+/* Estudios seccion educación  */
+.EstudiosEducacion{
+    text-align: right;
+    margin-top: 5rem;
+    margin-right: -5rem;
+}
+/*Estudios seccion educación */
+
+/* icono lapiz seccion educacion */
+.contenedor-lapiz svg {
+   font-size: 100rem;
+   color: white;
+   width: 2rem;
+   height: 2rem;
+   margin-top: 1rem;   
+}
+/* icono lapiz seccion educacion */
+
+
+/* icono developer seccion educacion */
+.contenedor-iconoDeveloper svg {
+    font-size: 100rem;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 6rem;            
+ } 
+/* icono developer seccion educacion */
+
+
+
+/* texto presentacion seccion presentacion */
+.textoPresentacion{
+    margin-top: 10rem;
+}
+/* texto presentacion seccion presentacion */
+
+/* texto estudios seccion estudios */
+.textosEstudios{
+    margin-top: 5rem;
+    text-align: right;  
+}
+/* texto estudios seccion estudios */
+
+
+/* logoNtn24 */
+.logoNtn24{
+    text-align: right;  
+    margin-right: -1rem;  
+}
+/* logoNtn24 */
+
+
+/* texto experiencia seccion experiencia */
+.textoExperiencia{
+    text-align: right;
+    margin-top: 5rem;
+    margin-right: -6rem;  
+}
+/* texto experiencia seccion experiencia */
+
+
+/* texto skills seccion skills */
+.textosEskills{
+    text-align: right;
+    margin-top: 5rem;
+    margin-right: -6rem;
+}
+/* texto skills seccion skills */
