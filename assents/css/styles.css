@@ -25,12 +25,18 @@
     color: rgb(171, 146, 3)!important;
 }/* fin cambio de color redes */
 
+/* boton edicion imagen baner */
+.btn-edit-baner{    
+    padding-top: 5rem;
+    float: right;
+}/* boton edicion imagen baner */
+
 /* banner de fondo */
 section.banner{
-    margin-top: 0rem;
+    margin-top: -5rem;
     background-image: url(/assents/img/fotoBaner1.jpeg);
     width: 100%;
-    height: 97vh;
+    height: 89vh;
     background-repeat: no-repeat;    
     background-size: cover;   
 }/* banner de fondo */
@@ -42,6 +48,12 @@ h1.intro{
     text-decoration: none;
     color: rgb(250, 250, 250)
 }/* texto banner */
+
+/* boton edicion imagen perfil */
+.btn-edit-img-perfil{    
+    float: left;
+}/* boton edicion imagen perfil */
+
 
 /* foto perfil seccion presentacion */
 .fotoPerfil{        

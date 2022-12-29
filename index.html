@@ -19,8 +19,6 @@
   
 </head>
 
- <header>
-
 <body class="bg-black">
 
 <!-- inicio navbar -->
@@ -37,27 +35,45 @@
                   <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
                     <i class=" btnLogin fa-solid fa-user text-white"></i>
                   </button>
-              </ul>   
-
-              
-             
+              </ul>           
         </div>
       </nav>
 <!-- fin navbar -->
 
 <!-- inicion banner -->
-<section class="banner">  
-  <h1 class="text-center intro ">
-    Hello I'm <br> Richard Lopez </br>
-    Full Web Stack Developer
-  </h1>
+<section class="banner">
+  
+  <!-- boton editar imagen baner -->
+  <div class="btn-edit-baner ">
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#btnEditModal">
+      <i class="fa-solid fa-pencil text-white"></i>
+    </button>
+  </div>
+  <!-- boton editar imagen baner -->
+
+  <!-- texto baner -->
+  <div>
+    <h1 class="text-center intro ">
+      Hello I'm <br> Richard Lopez </br>
+      Full Web Stack Developer
+    </h1>
+  </div>
+  <!-- texto baner -->
+
 </section>
 <!-- fin banner -->
 
-</header>
-
 <!-- Inicio seccion presentacion -->
 <section class="">
+
+  <!-- boton edit imagen perfil -->  
+  <div class="btn-edit-img-perfil">
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#btnEditModal">
+      <i class="fa-solid fa-pencil text-white"></i>
+    </button>
+  </div>  
+  <!-- boton edit imagen perfil -->
+
  <div class="container-fluid text-center ">
   <div class="row ">
     <div class="col-4 fotoPerfil">
@@ -198,15 +214,70 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
 </div>
+
+<!-- Modal baner-->
+<div class="modal fade" id="btnEditModal" tabindex="-1" aria-labelledby="btnEditModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="btnEditModalLabel">Editar Imagen Baner</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>          
+          <input type="file" name="" id="">
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal imagen perfil-->
+<div class="modal fade" id="btnEditModal" tabindex="-1" aria-labelledby="btnEditModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="btnEditModalLabel">Editar Imagen Baner</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>          
+          <input type="file" name="" id="">
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
  <!-- JavaScript Bundle with Popper -->
