@@ -1,12 +1,9 @@
-
-
 /* fondo redes */
 .list-group{
     --bs-list-group-bg: transparent;
-}
-/* fin fondo redes */
+}/* fondo redes */
 
-/* Cambio de color redes */
+/* cambio de color redes */
 .fa-2x.fa-brands.fa-github:hover{
     --bs-text-opacity: 1;
     color: rgb(171, 146, 3)!important;
@@ -20,19 +17,17 @@
 .fa-2x.fa-solid.fa-user-lock:hover{
     --bs-text-opacity: 1;
     color: rgb(171, 146, 3)!important;
-}
-/* Fin cambio de color redes */
+}/* fin cambio de color redes */
 
-/* Inicion estilo imagen banner de fondo */
+/* banner de fondo */
 section.banner{
-    background-image: url(/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
+    margin-top: 0rem;
+    background-image: url(/assents/img/fotoBaner1.jpeg);
     width: 100%;
     height: 97vh;
-    background-repeat: no-repeat;
-    position: relative;
+    background-repeat: no-repeat;    
     background-size: cover;   
-}
-/* Fin estilo imagen banner de fondo */
+}/* banner de fondo */
 
 /* texto banner */
 h1.intro{
@@ -40,88 +35,49 @@ h1.intro{
     font-size: 3rem;
     text-decoration: none;
     color: rgb(250, 250, 250)
-}
-/*  texto banner */
+}/* texto banner */
 
-/* espacio del formulario 100% */
-.login{
-    height: 82vh;
-}
-/* espacio del formulario 100% */
-
-/* espacio formulario */
-.formulariologin{
-    margin-top: 15%;
-}
-/* espacio formulario */
-
-/* estilos redes,banner,info */
-.link{
-    text-decoration: none;
-    color: #000}
-/* estilos redes,banner,info */
+/* foto perfil seccion presentacion */
+.fotoPerfil{        
+    margin-top: -5rem;
+}/* foto perfil seccion presentacion */
 
 /* seccion educación */
 .educacion{
     text-align: right;
     margin-top: 4.5rem;
     margin-right: -5.5rem;
-}
-/* seccion educación */
+}/* seccion educación */
 
-/* Estudios seccion educación  */
+/* estudios seccion educación  */
 .EstudiosEducacion{
     text-align: right;
     margin-top: 5rem;
     margin-right: -5rem;
-}
-/*Estudios seccion educación */
+}/*estudios seccion educación */
 
-/* icono lapiz seccion educacion */
-.contenedor-lapiz svg {
-   font-size: 100rem;
-   color: white;
-   width: 2rem;
-   height: 2rem;
-   margin-top: 1rem;   
-}
-/* icono lapiz seccion educacion */
-
-
-/* icono developer seccion educacion */
-.contenedor-iconoDeveloper svg {
-    font-size: 100rem;
-    color: white;
-    width: 2rem;
-    height: 2rem;
-    margin-top: 6rem;            
- } 
-/* icono developer seccion educacion */
-
-.presentacion{
-    margin-top: -3rem;
-}
-
-/* texto presentacion seccion presentacion */
+/* texto seccion presentacion */
 .textoPresentacion{
-    margin-top: 10rem;
-}
-/* texto presentacion seccion presentacion */
+    margin-top: 6.5rem;
+}/* texto seccion presentacion */
 
 /* texto estudios seccion estudios */
 .textosEstudios{
-    margin-top: 5rem;
+    margin-top: 6rem;
     text-align: right;  
-}
-/* texto estudios seccion estudios */
+}/* texto estudios seccion estudios */
 
+/* logo seProgramar sección estudios */
+.logoSeProgramar{
+    margin-top: 4rem;
+    margin-right: -1rem;
+}/* logo seProgramar sección estudios */
 
-/* logoNtn24 */
+/* logoNtn24 seccion experiencia */
 .logoNtn24{
     text-align: right;  
     margin-right: -1rem;  
-}
-/* logoNtn24 */
+}/* logoNtn24 seccion experiencia */
 
 
 /* texto experiencia seccion experiencia */
@@ -129,20 +85,35 @@ h1.intro{
     text-align: right;
     margin-top: 5rem;
     margin-right: -6rem;  
-}
-/* texto experiencia seccion experiencia */
+}/* texto experiencia seccion experiencia */
 
 
 /* texto skills seccion skills */
-.textosEskills{
+.textoSkills{
     text-align: right;
     margin-top: 5rem;
     margin-right: -6rem;
-}
-/* texto skills seccion skills */
+}/* texto skills seccion skills */
 
-/* footerPanel */
+/* texto proyectos seccion proyectos */
+.textoProyectos{
+    text-align: right;
+    margin-top: 5rem;
+    margin-right: -6rem;
+}/* texto proyectos seccion proyectos */
+
+/* footer */
 .footeralfondo{
     margin-top: 100vh;
-}
-/* footerPanel */
+}/* footer */
+
+
+/* espacio del formulario 100% */
+.login{
+    height: 82vh;
+}/* espacio del formulario 100% */
+
+/* espacio formulario */
+.formulariologin{
+    margin-top: 15%;
+}/* espacio formulario */
