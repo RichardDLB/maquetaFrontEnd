@@ -28,14 +28,19 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
                 <img src="assents/img/logos.png" alt="logo Argentina Programa" class="w-100">
-              </a>
-              <ul class="list-group list-group-horizontal">
+            </a>
+              <ul class="list-group list-group-horizontal ">
                 <li class="list-group-item"><a href="https://github.com/RichardDLB" target="_blank"><i class="fa-2x fa-brands fa-github text-white"></i></a></li>                
                 <li class="list-group-item"><a href="https://www.linkedin.com/in/richard-lopez-bolivar-30442b235/" target="_blank"><i class="fa-2x fa-brands fa-linkedin text-white"></i></a></li>
-                <li class="list-group-item">
-                <!-- boton que envia al loggin -->
-                 <a href="/assents/login.html"><i class="fa-2x fa-solid fa-user-lock text-white"></i></li></a>
-              </ul>        
+                <li class="list-group-item"> 
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <i class=" btnLogin fa-solid fa-user text-white"></i>
+                  </button>
+              </ul>   
+
+              
+             
         </div>
       </nav>
 <!-- fin navbar -->
@@ -181,6 +186,27 @@
 </footer>
 <!-- Fin footer -->
 
+
+<!-- MODALS -->
+
+<!-- Modal login-->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
  <!-- JavaScript Bundle with Popper -->

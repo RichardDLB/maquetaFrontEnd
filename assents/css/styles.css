@@ -3,6 +3,12 @@
     --bs-list-group-bg: transparent;
 }/* fondo redes */
 
+/* boton login */
+.btnLogin:hover{   
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;   
+}/* boton login */
+
 /* cambio de color redes */
 .fa-2x.fa-brands.fa-github:hover{
     --bs-text-opacity: 1;
