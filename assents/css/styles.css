@@ -54,17 +54,23 @@ h1.intro{
     margin-top: -5rem;
 }/* foto perfil seccion presentacion */
 
+/* lapiz editar foto perfil seccion presentacion */
+.lapizEdicionImagenPerfil{
+  padding-left: 25rem;
+  margin-top: -38rem;
+}/* lapiz editar foto perfil seccion presentacion */
+
 /* lapiz editar texto imagen perfil seccion presentacion */
 .lapizEditartextoImgPresentacion{
-   padding-left: 20rem;
-   margin-top: -5rem;
+   padding-left: 21rem;
+   margin-top: -15rem;
 }/* lapiz editar texto imagen perfil seccion presentacion */
 
 /* lapiz editar texto presentacion */
-.lapiztextoPresentacion{
-    float: right;    
-    margin-top: -13rem;
-    margin-right: 2rem;
+.lapiztextoPresentacion{ 
+    margin-right: 2.5rem;         
+    margin-top: -19rem;
+    float: right;
 } /* lapiz editar texto presentacion */
 
 /* seccion educación */
