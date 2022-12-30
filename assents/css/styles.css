@@ -46,19 +46,26 @@ h1.intro{
     padding-top: 13%;
     font-size: 3rem;
     text-decoration: none;
-    color: rgb(250, 250, 250)
+    color: white;
 }/* texto banner */
-
-/* boton edicion imagen perfil */
-.btn-edit-img-perfil{    
-    float: left;
-}/* boton edicion imagen perfil */
-
 
 /* foto perfil seccion presentacion */
 .fotoPerfil{        
     margin-top: -5rem;
 }/* foto perfil seccion presentacion */
+
+/* lapiz editar texto imagen perfil seccion presentacion */
+.lapizEditartextoImgPresentacion{
+   padding-left: 20rem;
+   margin-top: -5rem;
+}/* lapiz editar texto imagen perfil seccion presentacion */
+
+/* lapiz editar texto presentacion */
+.lapiztextoPresentacion{
+    float: right;    
+    margin-top: -13rem;
+    margin-right: 2rem;
+} /* lapiz editar texto presentacion */
 
 /* seccion educación */
 .educacion{
@@ -77,6 +84,7 @@ h1.intro{
 /* texto seccion presentacion */
 .textoPresentacion{
     margin-top: 6.5rem;
+    padding-right: 5rem;;
 }/* texto seccion presentacion */
 
 /* texto estudios seccion estudios */
