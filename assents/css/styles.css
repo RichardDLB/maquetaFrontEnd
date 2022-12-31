@@ -74,14 +74,14 @@ h1.intro{
 } /* lapiz editar texto presentacion */
 
 /* seccion educación */
-.educacion{
+.estiloTextoEducacion{
     text-align: right;
     margin-top: 4.5rem;
     margin-right: -5.5rem;
 }/* seccion educación */
 
 /* estudios seccion educación  */
-.EstudiosEducacion{
+.estudiosEducacion{
     text-align: right;
     margin-top: 5rem;
     margin-right: -5rem;
@@ -95,7 +95,7 @@ h1.intro{
 
 /* texto estudios seccion estudios */
 .textosEstudios{
-    margin-top: 6rem;
+    margin-top: 9rem;
     text-align: right;  
 }/* texto estudios seccion estudios */
 
@@ -105,17 +105,22 @@ h1.intro{
     margin-right: -1rem;
 }/* logo seProgramar sección estudios */
 
+
+
+
 /* logoNtn24 seccion experiencia */
 .logoNtn24{
-    text-align: right;  
-    margin-right: -1rem;  
+    text-align: right;
+    margin-top: 3rem;
+    margin-right: -5rem;
+    width: 22rem;  
 }/* logoNtn24 seccion experiencia */
 
 
 /* texto experiencia seccion experiencia */
-.textoExperiencia{
+.estiloTextoExperiencia{
     text-align: right;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-right: -6rem;  
 }/* texto experiencia seccion experiencia */
 
