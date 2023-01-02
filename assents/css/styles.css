@@ -1,3 +1,5 @@
+/* SECCION NAVBAR */
+
 /* fondo redes */
 .list-group{
     --bs-list-group-bg: transparent;
@@ -14,16 +16,20 @@
     --bs-text-opacity: 1;
     color: rgb(171, 146, 3)!important;
 }
-
 .fa-2x.fa-brands.fa-linkedin:hover{
     --bs-text-opacity: 1;
     color: rgb(171, 146, 3)!important;
 }
-
 .fa-2x.fa-solid.fa-user-lock:hover{
     --bs-text-opacity: 1;
     color: rgb(171, 146, 3)!important;
 }/* fin cambio de color redes */
+
+/* SECCION NAVBAR */
+
+
+
+/* SECCION BANER */
 
 /* boton edicion imagen baner */
 .btn-edit-baner{    
@@ -49,10 +55,22 @@ h1.intro{
     color: white;
 }/* texto banner */
 
+/* SECCION BANER */
+
+
+
+/* SECCION PRESENTACION */
+
 /* foto perfil seccion presentacion */
 .fotoPerfil{        
     margin-top: -5rem;
 }/* foto perfil seccion presentacion */
+
+/* texto seccion presentacion */
+.textoPresentacion{
+    margin-top: 6.5rem;
+    padding-right: 5rem;;
+}/* texto seccion presentacion */
 
 /* lapiz editar foto perfil seccion presentacion */
 .lapizEdicionImagenPerfil{
@@ -73,40 +91,18 @@ h1.intro{
     float: right;
 } /* lapiz editar texto presentacion */
 
-/* seccion educación */
-.estiloTextoEducacion{
+/* SECCION PRESENTACION */
+
+
+
+/* SECCIÓN EXPERIENCIA */
+
+/* texto experiencia seccion experiencia */
+.estiloTextoExperiencia{
     text-align: right;
-    margin-top: 4.5rem;
-    margin-right: -5.5rem;
-}/* seccion educación */
-
-/* estudios seccion educación  */
-.estudiosEducacion{
-    text-align: right;
-    margin-top: 5rem;
-    margin-right: -5rem;
-}/*estudios seccion educación */
-
-/* texto seccion presentacion */
-.textoPresentacion{
-    margin-top: 6.5rem;
-    padding-right: 5rem;;
-}/* texto seccion presentacion */
-
-/* texto estudios seccion estudios */
-.textosEstudios{
-    margin-top: 9rem;
-    text-align: right;  
-}/* texto estudios seccion estudios */
-
-/* logo seProgramar sección estudios */
-.logoSeProgramar{
-    margin-top: 4rem;
-    margin-right: -1rem;
-}/* logo seProgramar sección estudios */
-
-
-
+    margin-top: 6rem;
+    margin-right: -6rem;  
+}/* texto experiencia seccion experiencia */
 
 /* logoNtn24 seccion experiencia */
 .logoNtn24{
@@ -116,14 +112,60 @@ h1.intro{
     width: 22rem;  
 }/* logoNtn24 seccion experiencia */
 
+/* texto redactor-web seccion experiencia */
+.textoRedactorWeb{ 
+    text-align: right;   
+    margin-top: 6rem;     
+    margin-right: -2rem;
+}/* texto redactor-web seccion experiencia */
 
-/* texto experiencia seccion experiencia */
-.estiloTextoExperiencia{
+/* SECCIÓN EXPERIENCIA */
+
+
+
+/* SECCIÓN EDUCACIÓN */
+
+/* estilo texto educación seccion educación */
+.estiloTextoEducacion{
     text-align: right;
-    margin-top: 6rem;
-    margin-right: -6rem;  
-}/* texto experiencia seccion experiencia */
+    margin-top: 10rem;
+    margin-right: -rem;
+}/* estilo texto educación seccion educación */
 
+/* logo universidad-del-quidío sección educación  */
+.estiloLogoUniversidadQuindio{
+    text-align: right;
+    margin-top: 11rem;  
+    margin-right: -2rem;     
+}/* logo universidad-del-quidío sección educación  */
+
+/* texto comunicador social seccion estudios */
+.textoComunicadorSocial{
+    margin-top: 10rem;
+    text-align: right; 
+    margin-right: -1rem;
+}/* texto comunicador social seccion estudios */
+
+/* logo seProgramar sección estudios */
+.logoSeProgramar{
+    text-align: right;
+    margin-top: 5rem;  
+    margin-left: 8rem; 
+    width: 12rem;   
+}/* logo seProgramar sección estudios */
+
+/* texto se-programar seccion estudios */
+.textosSeProgramar{
+    margin-top: 10rem;
+    text-align: right; 
+    margin-right: -1rem;
+}/* texto se-programar seccion estudios */
+
+/* SECCIÓN EDUCACIÓN */
+
+
+
+/* SECCION SKILLS */
 
 /* texto skills seccion skills */
 .textoSkills{
@@ -144,6 +186,11 @@ h1.intro{
     margin-top: 100vh;
 }/* footer */
 
+/* SECCION SKILLS */
+
+
+
+/* STILOS PÁGINA LOGIN */
 
 /* espacio del formulario 100% */
 .login{
@@ -154,3 +201,5 @@ h1.intro{
 .formulariologin{
     margin-top: 15%;
 }/* espacio formulario */
+
+/* STILOS PÁGINA LOGIN */
