@@ -147,15 +147,27 @@
        Educación
       </h1>
      </div>
+
       <div class="col-3">
-        <div class="estiloLogoUniversidadQuindio">
-          <img src="assents/img/logoUniversidad.png" alt="logo-universidad-quindio" class="w-25">
-        </div> 
+        <div class="container-fluid">
+          <!-- Button trigger logo universidad del quindío modal -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#logoUniversidadQuindioModal">
+              <img src="assents/img/logoUniversidad.png" alt="logo-universidad-quindio" class=" estiloLogoUniversidadQuindio">
+            </button>
+          <!-- Button trigger logo universidad del quindío modal -->
+        </div>
+
+
         <div class="">
-          <img src="assents/img/logoSeProgramar.png" alt="logo-argentinaPrograma" class="logoSeProgramar">
+          <!-- Button trigger logo argentina programa modal -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#logoArgentinaProgramaModal">
+              <img src="assents/img/logoSeProgramar.png" alt="logo-argentinaPrograma" class="logoSeProgramar">
+            </button>
+          <!-- Button trigger logo argentina programa modal -->
         </div>
      </div>
-     <div class="col-5 text-white"> 
+     
+    <div class="col-5 text-white"> 
       <div class="textoComunicadorSocial">        
         <h4 >Comunicador Social-Periodista</h4>
         <h5>Universidad del Quíndio, 2012 </h5>
@@ -227,7 +239,10 @@
 
 <!-- MODALS -->
 
-<!-- Modal login-->
+
+<!-- SECCIÓN NAVBAR -->
+
+<!-- Modal boton login-->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -255,8 +270,15 @@
     </div>
   </div>
 </div>
+<!-- Modal boton login-->
 
-<!-- Modal baner-->
+<!-- SECCIÓN NAVBAR -->
+
+
+
+<!-- SECCIÓN BANER -->
+
+<!-- Modal editar imagen baner-->
 <div class="modal fade" id="btnEditImgBanerModal" tabindex="-1" aria-labelledby="btnEditImgBanerModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -276,6 +298,79 @@
     </div>
   </div>
 </div>
+<!-- Modal editar imagen baner-->
+
+<!-- SECCIÓN BANER -->
+
+
+
+<!-- SECCIÓN PRESENTACIÓN -->
+
+<!-- Modal  editar texto seccion presentacion-->
+<div class="modal fade" id="lapizTextoPresentacionModal" tabindex="-1" aria-labelledby="lapizTextoPresentacionModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="lapizTextoPresentacionModalLabel">Editar Texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="textarea" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal editar texto seccion presentacion-->
+
+<!-- Modal editar texto imagen perfil seccion presentacion-->
+<div class="modal fade" id="lapizTextoImgPresentacionModal" tabindex="-1" aria-labelledby="lapizTextoImgPresentacionModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="lapizTextoImgPresentacionModalLabel">Editar Texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="textarea" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal editar texto imagen perfil seccion presentacion-->
+
+<!-- Modal editar imagen perfil seccion presentacion -->
+<div class="modal fade" id="btnEditImgPerfil" tabindex="-1" aria-labelledby="btnEditImgPerfilLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="btnEditImgPerfilLabel">Cambiar Imagen</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="file" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal editar imagen perfil seccion presentacion -->
+
+<!-- SECCIÓN PRESENTACIÓN -->
+
+
+
+<!-- SECCIÓN EXPERIENCIA -->
 
 <!-- Modal logo ntn24 sección experiencia-->
 <div class="modal fade" id="certificadoNtn24Modal" tabindex="-1" aria-labelledby="certificadoNtn24ModalLabel" aria-hidden="true">
@@ -296,71 +391,55 @@
 </div>
 <!-- Modal logo ntn24 sección experiencia-->
 
+<!-- SECCIÓN EXPERIENCIA -->
 
 
 
-<!-- Modal Boton tigger imagen perfil seccion presentacion -->
-<div class="modal fade" id="btnEditImgPerfil" tabindex="-1" aria-labelledby="btnEditImgPerfilLabel" aria-hidden="true">
+<!-- SECCIÓN EDUCACIÓN -->
+
+<!-- Modal logo universidad del quindío sección educación-->
+<div class="modal fade" id="logoUniversidadQuindioModal" tabindex="-1" aria-labelledby="logoUniversidadQuindioModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="btnEditImgPerfilLabel">Cambiar Imagen</h1>
+        <h1 class="modal-title fs-5" id="logoUniversidadQuindioModalLabel">Diploma Comunicador Social Periodista</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <input type="file" name="" id="">
+        ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
-      </div>
-    </div>
-  </div>
-</div><!-- Modal Boton tigger imagen perfil seccion presentacion -->
-
-
-<!-- Modal texto imagen perfil seccion presentacion-->
-<div class="modal fade" id="lapizTextoImgPresentacionModal" tabindex="-1" aria-labelledby="lapizTextoImgPresentacionModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="lapizTextoImgPresentacionModalLabel">Editar Texto</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <input type="textarea" name="" id="">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>        
       </div>
     </div>
   </div>
 </div>
-<!-- Modal texto imagen perfil seccion presentacion-->
+<!-- logo universidad del quindío sección educación-->
 
-
-<!-- Modal texto seccion presentacion-->
-<div class="modal fade" id="lapizTextoPresentacionModal" tabindex="-1" aria-labelledby="lapizTextoPresentacionModalLabel" aria-hidden="true">
+<!-- Modal logo argentina programa sección educación-->
+<div class="modal fade" id="logoArgentinaProgramaModal" tabindex="-1" aria-labelledby="logoArgentinaProgramaModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="lapizTextoPresentacionModalLabel">Editar Texto</h1>
+        <h1 class="modal-title fs-5" id="logoArgentinaProgramaModalLabel">Certificado SéProgramar</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <input type="textarea" name="" id="">
+        ...
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
+        
       </div>
     </div>
   </div>
 </div>
-<!-- Modal texto seccion presentacion-->
+<!-- Modal logo argentina programa sección educación-->
+
+<!-- SECCIÓN EDUCACIÓN -->
 
 
+<!-- FIN MODALS -->
 
 
  <!-- JavaScript Bundle with Popper -->

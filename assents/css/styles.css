@@ -109,7 +109,8 @@ h1.intro{
     text-align: right;
     margin-top: 3rem;
     margin-right: -5rem;
-    width: 22rem;  
+    width: 22rem; 
+    position: relative; 
 }/* logoNtn24 seccion experiencia */
 
 /* texto redactor-web seccion experiencia */
@@ -129,14 +130,17 @@ h1.intro{
 .estiloTextoEducacion{
     text-align: right;
     margin-top: 10rem;
-    margin-right: -rem;
+    margin-right: -5rem;
 }/* estilo texto educación seccion educación */
 
 /* logo universidad-del-quidío sección educación  */
 .estiloLogoUniversidadQuindio{
     text-align: right;
-    margin-top: 11rem;  
-    margin-right: -2rem;     
+    margin-top: 10rem;  
+    margin-left: 12rem;  
+    width: 5rem;   
+    position:relative;
+    background-position: center;
 }/* logo universidad-del-quidío sección educación  */
 
 /* texto comunicador social seccion estudios */
@@ -151,7 +155,9 @@ h1.intro{
     text-align: right;
     margin-top: 5rem;  
     margin-left: 8rem; 
-    width: 12rem;   
+    width: 12rem; 
+    position:relative;
+  
 }/* logo seProgramar sección estudios */
 
 /* texto se-programar seccion estudios */
