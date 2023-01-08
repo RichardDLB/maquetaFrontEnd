@@ -109,18 +109,15 @@ h1.intro{
     text-align: right;
     margin-top: -0.5rem;
     margin-right: -8rem;
-    width: 22rem; 
-    height: auto;
-    position: relative;
-    background-position: center;
-    background-size: cover;
+    width: 22rem;    
+    position: absolute;
 }/* logoNtn24 seccion experiencia */
 
 /* texto redactor-web seccion experiencia */
 .textoRedactorWeb{ 
     text-align: right;   
     margin-top: -0.5rem;     
-    margin-right: 2rem;
+    margin-right: 5rem;
 }/* texto redactor-web seccion experiencia */
 
 /* lapiz editar texto experiencia */
@@ -132,14 +129,15 @@ h1.intro{
 
 /* lapiz editar logo ntn24 seccion experiencia */
 .lapizEditarLogoNtnExperiencia{ 
-    margin-top: -9rem; 
-    margin-right: 4rem;     
-}/* lapiz editar logo ntn24 seccion presentacion */
+    float: right;
+    margin-top: -2.5rem; 
+    margin-right: -5rem; 
+}/* lapiz editar logo ntn24 seccion experiencia */
 
 /* lapiz editar texto largo experiencia */
 .lapizEditarTextoLargoExperiencia{ 
     float: right;     
-    margin-right: -1rem;
+    margin-right: 3rem;
     margin-top: -6rem;       
 }/* lapiz editar texto largo experiencia */
 
@@ -157,43 +155,57 @@ h1.intro{
 }/* estilo texto educación seccion educación */
 
 /* logo universidad-del-quidío sección educación  */
-.estiloLogoUniversidadQuindio{
+.estiloLogoUniversidadQuindio{    
     text-align: right;
     margin-top: 10rem;  
     margin-left: 12rem;  
-    width: 5rem;   
-    height: auto;
-    position: relative;
-    background-position: center;
-    background-size: cover;
+    width: 5rem;       
+    position: absolute;    
 }/* logo universidad-del-quidío sección educación  */
 
-/* texto comunicador social seccion estudios */
+/* texto comunicador social seccion educación */
 .textoComunicadorSocial{
     margin-top: 10rem;
     text-align: right; 
     margin-right: -1rem;
-}/* texto comunicador social seccion estudios */
+}/* texto comunicador social seccion educación */
 
-/* logo seProgramar sección estudios */
-.logoSeProgramar{
-    text-align: right;
-    margin-top: 5rem;  
-    margin-left: 8rem; 
-    width: 12rem; 
-    height: auto;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    
-}/* logo seProgramar sección estudios */
+/* logo seProgramar sección educación */
+.logoSeProgramar{    
+    margin-top: 10rem;  
+    margin-left: 1rem; 
+    width: 12rem;    
+    position: absolute;    
+}/* logo seProgramar sección educación */
 
-/* texto se-programar seccion estudios */
+/* lapiz editar logo ntn24 seccion educacion */
+.lapizEditarLogoUniversidad{      
+    margin-left: 16.5rem; 
+    margin-top: 8.5rem; 
+    position: absolute;
+}/* lapiz editar logo ntn24 seccion educacion */
+
+/* texto se-programar seccion educación */
 .textosSeProgramar{
     margin-top: 10rem;
     text-align: right; 
     margin-right: -1rem;
-}/* texto se-programar seccion estudios */
+}/* texto se-programar seccion educación */
+
+/* lapiz editar texto educacion */
+.lapizEditarTextoEducacion{ 
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: -5rem; 
+          
+
+}/* lapiz editar texto educacion */
+
+/* lapiz editar texto largo educacion */
+.lapizEditarTextoLargoUniversidad{         
+    margin-right: -2.4rem;
+    margin-top: -10.5rem;       
+}/* lapiz editar texto largo educacion */
 
 /* SECCIÓN EDUCACIÓN */
 

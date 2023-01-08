@@ -125,12 +125,12 @@
      
     </div> 
 
-     <div class="col-3 logoNtn24">
-      <div class=" container-fluid logoNtn24">
+     <div class="col-3">
+      <div class="container-fluid">
 
         <!-- Button trigger modal logo ntn24 sección experiencia -->
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#certificadoNtn24Modal">
-            <img src="assents/img/ntn24-logo.png" alt="logoNtn24" class=" contenedor w-50 h-50 container-fluid">
+          <button type="button" class="btn logoNtn24" data-bs-toggle="modal" data-bs-target="#certificadoNtn24Modal">
+            <img src="assents/img/ntn24-logo.png" alt="logoNtn-24" class=" contenedor w-50 h-50 container-fluid">
           </button>
         <!-- Button trigger modal logo ntn24 sección experiencia -->
 
@@ -154,7 +154,7 @@
           <i class="fa-solid fa-pencil text-white"></i>
         </button>
         <!-- Button trigger modal lapiz editar texto largo sección experiencia -->
-        
+
       </div> 
       
     
@@ -170,6 +170,14 @@
       <h1 class="estiloTextoEducacion text-white container-fluid">
        Educación
       </h1>
+
+      <!-- Button trigger modal lapiz editar texto educación sección eduación -->
+      <button type="button" class="btn lapizEditarTextoEducacion" data-bs-toggle="modal" data-bs-target="#editarTextoEducacionModal">
+        <i class="fa-solid fa-pencil text-white"></i>
+      </button>
+      <!-- Button trigger modal lapiz editar texto educación sección eduación -->
+
+
      </div>
 
       <div class="col-3">
@@ -179,22 +187,37 @@
               <img src="assents/img/logoUniversidad.png" alt="logo-universidad-quindio" class=" estiloLogoUniversidadQuindio">
             </button>
           <!-- Button trigger logo universidad del quindío modal -->
-        </div>
 
+            <!-- Button trigger modal lapiz editar logo universidad sección eduación -->
+              <button type="button" class="btn lapizEditarLogoUniversidad" data-bs-toggle="modal" data-bs-target="#editarLogoUniversidadModal">
+                <i class="fa-solid fa-pencil text-white"></i>
+              </button>
+            <!-- Button trigger modal lapiz editar logo universidad sección eduación -->           
+
+        </div>
 
         <div class="container-fluid">
           <!-- Button trigger logo argentina programa modal -->
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#logoArgentinaProgramaModal">
+            <button type="button" class="btn logoSeProgramar" data-bs-toggle="modal" data-bs-target="#logoArgentinaProgramaModal">
               <img src="assents/img/logoSeProgramar.png" alt="logo-argentinaPrograma" class="logoSeProgramar">
             </button>
           <!-- Button trigger logo argentina programa modal -->
+
         </div>
+
      </div>
      
     <div class="col-5 text-white container-fluid"> 
       <div class="textoComunicadorSocial">        
         <h4 >Comunicador Social-Periodista</h4>
         <h5>Universidad del Quíndio, 2012 </h5>
+
+        <!-- Button trigger modal lapiz editar texto largo universida sección educación -->
+        <button type="button" class="btn lapizEditarTextoLargoUniversidad" data-bs-toggle="modal" data-bs-target="#EditarTextoLargoUniversidadModal">
+          <i class="fa-solid fa-pencil text-white"></i>
+        </button>
+        <!-- Button trigger modal lapiz editar texto largo universida sección educación -->
+
       </div>
       <div class="textosSeProgramar">
         <h4>Certificado curso #SeProgramar</h4>
@@ -475,17 +498,31 @@
 </div>
 <!-- Modal lapiz editar texto largo sección experiencia -->
 
-
-
-
-
-
-
 <!--MODALS SECCIÓN EXPERIENCIA -->
 
 
 
 <!--MODALS SECCIÓN EDUCACIÓN -->
+
+<!-- Modal lapiz editar texto educación sección educación -->
+<div class="modal fade" id="editarTextoEducacionModal" tabindex="-1" aria-labelledby="editarTextoEducacionModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarTextoEducacionModalLabel">Editar Texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal lapiz editar texto educación sección educación -->
 
 <!-- Modal logo universidad del quindío sección educación-->
 <div class="modal fade" id="logoUniversidadQuindioModal" tabindex="-1" aria-labelledby="logoUniversidadQuindioModalLabel" aria-hidden="true">
@@ -505,6 +542,46 @@
   </div>
 </div>
 <!-- Modal logo universidad del quindío sección educación-->
+
+<!-- Modal lapiz editar logo universidad sección educación -->
+<div class="modal fade" id="editarLogoUniversidadModal" tabindex="-1" aria-labelledby="editarLogoUniversidadModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarLogoUniversidadModalLabel">Editar Imagen</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="file" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal lapiz editar logo universidad sección educación -->
+
+<!-- Modal lapiz editar texto largo universidad sección educación -->
+<div class="modal fade" id="EditarTextoLargoUniversidadModal" tabindex="-1" aria-labelledby="EditarTextoLargoUniversidadModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="EditarTextoLargoUniversidadModalLabel">Editar texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal lapiz editar texto largo universidad sección educación -->
 
 <!-- Modal logo argentina programa sección educación-->
 <div class="modal fade" id="logoArgentinaProgramaModal" tabindex="-1" aria-labelledby="logoArgentinaProgramaModalLabel" aria-hidden="true">
