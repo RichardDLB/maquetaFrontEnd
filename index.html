@@ -79,62 +79,86 @@
       </h4>
     </div>   
   </div>
-  </div>
+</div>
 
-    <!-- Boton tigger imagen perfil seccion presentacion -->
+    <!-- lapiz editar imagen perfil seccion presentacion -->
     <div class="container-fluid">
     <button type="button" class="btn lapizEdicionImagenPerfil" data-bs-toggle="modal" data-bs-target="#btnEditImgPerfil">
       <i class="fa-solid fa-pencil text-white"></i>
-    </button>
-    <!-- Boton tigger imagen perfil seccion presentacion -->
+    </button>    
     </div>
+    <!-- lapiz editar imagen perfil seccion presentacion -->
 
-    <!-- Boton tigger texto imagen perfil seccion presentacion -->
+    <!-- lapiz editar texto imagen perfil seccion presentacion -->
     <div class="container-fluid">
       <button type="button" class="btn lapizEditartextoImgPresentacion" data-bs-toggle="modal" data-bs-target="#lapizTextoImgPresentacionModal">
         <i class="fa-solid fa-pencil text-white"></i>
       </button>
     </div>
-    <!-- Boton tigger texto imagen perfil seccion presentacion -->
+    <!-- lapiz editar texto imagen perfil seccion presentacion -->
 
-
-    <!-- Boton tigger texto seccion presentacion -->
+    <!-- lapiz editar texto seccion presentacion -->
     <div class="container-fluid">
       <button type="button" class="btn lapiztextoPresentacion" data-bs-toggle="modal" data-bs-target="#lapizTextoPresentacionModal">
         <i class="fa-solid fa-pencil text-white"></i>
       </button>
     </div>
-    <!-- Boton tigger texto  seccion presentacion -->
+    <!-- lapiz editar texto  seccion presentacion -->
 
 </section>
 <!-- Fin seccion presentacion -->
 
 <!-- Inicion seccion experiencia -->
 <section class="experiencia container-fluid">
-  <div class="container text-center">
+  
    <div class="row">
-     <div class="col-4">
+     <div class="col-4 ">
       <h1 class=" container-fluid estiloTextoExperiencia text-white">
         Experiencia
-      </h1> 
-     </div>
+      </h1>
+
+      <!-- Button trigger modal lapiz editar texto experiencia sección experiencia -->
+        <button type="button" class="btn lapizEditarTextoExperiencia" data-bs-toggle="modal" data-bs-target="#editarTextoLargoModal">
+          <i class="fa-solid fa-pencil text-white"></i>
+        </button>
+      <!-- Button trigger modal lapiz editar texto experiencia sección experiencia -->
+     
+    </div> 
+
      <div class="col-3 logoNtn24">
       <div class=" container-fluid logoNtn24">
 
         <!-- Button trigger modal logo ntn24 sección experiencia -->
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#certificadoNtn24Modal">
-  <img src="assents/img/ntn24-logo.png" alt="logoNtn24" class=" contenedor w-50 h-50 container-fluid">
-</button><!-- Button trigger modal logo ntn24 sección experiencia -->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#certificadoNtn24Modal">
+            <img src="assents/img/ntn24-logo.png" alt="logoNtn24" class=" contenedor w-50 h-50 container-fluid">
+          </button>
+        <!-- Button trigger modal logo ntn24 sección experiencia -->
+
+        <!-- Button trigger modal lapiz editar logo ntn24 sección experiencia -->
+          <button type="button" class="btn lapizEditarLogoNtnExperiencia" data-bs-toggle="modal" data-bs-target="#editarLogoNtnModal">
+            <i class="fa-solid fa-pencil text-white"></i>
+          </button>
+        <!-- Button trigger modal lapiz editar logo ntn24 sección experiencia -->
+
+      </div> 
+    </div>
+   
+      <div class="col-5 text-white container-fluid"> 
+        <div class="textoRedactorWeb">        
+          <h4 >Redactor Web</h4>
+          <h5>Portal Web de Noticias NTN24</h5>
+        </div>  
+
+        <!-- Button trigger modal lapiz editar texto largo sección experiencia -->
+        <button type="button" class="btn lapizEditarTextoLargoExperiencia" data-bs-toggle="modal" data-bs-target="#editarTextoLargoModal">
+          <i class="fa-solid fa-pencil text-white"></i>
+        </button>
+        <!-- Button trigger modal lapiz editar texto largo sección experiencia -->
         
       </div> 
-   </div>
-   <div class="col-5 text-white container-fluid"> 
-      <div class="textoRedactorWeb">        
-        <h4 >Redactor Web</h4>
-        <h5>Portal Web de Noticias NTN24</h5>
-      </div>      
-    </div>   
- </div> 
+      
+    
+  </div>
  </section>
  <!-- Fin seccion experiencia -->
 
@@ -240,7 +264,7 @@
 <!-- MODALS -->
 
 
-<!-- SECCIÓN NAVBAR -->
+<!--MODALS SECCIÓN NAVBAR -->
 
 <!-- Modal boton login-->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
@@ -272,11 +296,11 @@
 </div>
 <!-- Modal boton login-->
 
-<!-- SECCIÓN NAVBAR -->
+<!--MODALS SECCIÓN NAVBAR -->
 
 
 
-<!-- SECCIÓN BANER -->
+<!--MODALS SECCIÓN BANER -->
 
 <!-- Modal editar imagen baner-->
 <div class="modal fade" id="btnEditImgBanerModal" tabindex="-1" aria-labelledby="btnEditImgBanerModalLabel" aria-hidden="true">
@@ -300,11 +324,11 @@
 </div>
 <!-- Modal editar imagen baner-->
 
-<!-- SECCIÓN BANER -->
+<!--MODALS SECCIÓN BANER -->
 
 
 
-<!-- SECCIÓN PRESENTACIÓN -->
+<!--MODALS SECCIÓN PRESENTACIÓN -->
 
 <!-- Modal  editar texto seccion presentacion-->
 <div class="modal fade" id="lapizTextoPresentacionModal" tabindex="-1" aria-labelledby="lapizTextoPresentacionModalLabel" aria-hidden="true">
@@ -366,11 +390,31 @@
 </div>
 <!-- Modal editar imagen perfil seccion presentacion -->
 
-<!-- SECCIÓN PRESENTACIÓN -->
+<!--MODALS SECCIÓN PRESENTACIÓN -->
 
 
 
-<!-- SECCIÓN EXPERIENCIA -->
+<!--MODALS SECCIÓN EXPERIENCIA -->
+
+<!-- Modal lapiz editar texto experiencia sección experiencia -->
+<div class="modal fade" id="editarTextoLargoModal" tabindex="-1" aria-labelledby="editarTextoLargoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarTextoLargoModalLabel">Editar Texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal lapiz editar texto experiencia sección experiencia -->
 
 <!-- Modal logo ntn24 sección experiencia-->
 <div class="modal fade" id="certificadoNtn24Modal" tabindex="-1" aria-labelledby="certificadoNtn24ModalLabel" aria-hidden="true">
@@ -391,11 +435,57 @@
 </div>
 <!-- Modal logo ntn24 sección experiencia-->
 
-<!-- SECCIÓN EXPERIENCIA -->
+<!-- Modal lapiz editar logo ntn24 sección experiencia -->
+<div class="modal fade" id="editarLogoNtnModal" tabindex="-1" aria-labelledby="editarLogoNtnModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarLogoNtnModalLabel">Editar Imagen</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="file" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal lapiz editar logo ntn24 sección experiencia -->
+
+<!-- Modal lapiz editar texto largo sección experiencia -->
+<div class="modal fade" id="editarTextoLargoModal" tabindex="-1" aria-labelledby="editarTextoLargoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarLogoNtnModalLabel">Editar texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="file" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal lapiz editar texto largo sección experiencia -->
 
 
 
-<!-- SECCIÓN EDUCACIÓN -->
+
+
+
+
+<!--MODALS SECCIÓN EXPERIENCIA -->
+
+
+
+<!--MODALS SECCIÓN EDUCACIÓN -->
 
 <!-- Modal logo universidad del quindío sección educación-->
 <div class="modal fade" id="logoUniversidadQuindioModal" tabindex="-1" aria-labelledby="logoUniversidadQuindioModalLabel" aria-hidden="true">
@@ -414,7 +504,7 @@
     </div>
   </div>
 </div>
-<!-- logo universidad del quindío sección educación-->
+<!-- Modal logo universidad del quindío sección educación-->
 
 <!-- Modal logo argentina programa sección educación-->
 <div class="modal fade" id="logoArgentinaProgramaModal" tabindex="-1" aria-labelledby="logoArgentinaProgramaModalLabel" aria-hidden="true">
@@ -436,7 +526,7 @@
 </div>
 <!-- Modal logo argentina programa sección educación-->
 
-<!-- SECCIÓN EDUCACIÓN -->
+<!--MODALS SECCIÓN EDUCACIÓN -->
 
 
 <!-- FIN MODALS -->

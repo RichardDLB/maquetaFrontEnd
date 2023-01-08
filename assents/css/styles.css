@@ -40,7 +40,7 @@
 /* banner de fondo */
 section.banner{
     margin-top: -5rem;
-    background-image: url(/assents/img/fotoBaner1.jpeg);
+    background-image: url(/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
     width: 100%;
     height: 89vh;
     background-repeat: no-repeat;    
@@ -100,15 +100,15 @@ h1.intro{
 /* texto experiencia seccion experiencia */
 .estiloTextoExperiencia{
     text-align: right;
-    margin-top: 6rem;
-    margin-right: -6rem;  
+    margin-top: -1rem;
+    margin-right: -7rem;  
 }/* texto experiencia seccion experiencia */
 
 /* logoNtn24 seccion experiencia */
 .logoNtn24{
     text-align: right;
-    margin-top: 3rem;
-    margin-right: -5rem;
+    margin-top: -0.5rem;
+    margin-right: -8rem;
     width: 22rem; 
     height: auto;
     position: relative;
@@ -119,9 +119,29 @@ h1.intro{
 /* texto redactor-web seccion experiencia */
 .textoRedactorWeb{ 
     text-align: right;   
-    margin-top: 6rem;     
-    margin-right: -2rem;
+    margin-top: -0.5rem;     
+    margin-right: 2rem;
 }/* texto redactor-web seccion experiencia */
+
+/* lapiz editar texto experiencia */
+.lapizEditarTextoExperiencia{ 
+    float: right;     
+    margin-right: -9rem;
+    margin-top: -5rem;       
+}/* lapiz editar texto experiencia */
+
+/* lapiz editar logo ntn24 seccion experiencia */
+.lapizEditarLogoNtnExperiencia{ 
+    margin-top: -9rem; 
+    margin-right: 4rem;     
+}/* lapiz editar logo ntn24 seccion presentacion */
+
+/* lapiz editar texto largo experiencia */
+.lapizEditarTextoLargoExperiencia{ 
+    float: right;     
+    margin-right: -1rem;
+    margin-top: -6rem;       
+}/* lapiz editar texto largo experiencia */
 
 /* SECCIÓN EXPERIENCIA */
 
