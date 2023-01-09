@@ -21,7 +21,7 @@
 
 <body class="bg-black">
 
-<!-- inicio navbar -->
+<!-- inicio sección navbar -->
     <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
@@ -38,9 +38,9 @@
               </ul>           
         </div>
       </nav>
-<!-- fin navbar -->
+<!-- fin sección navbar -->
 
-<!-- inicion banner -->
+<!-- inicion sección banner -->
 <section class="banner">
   
   <!-- boton tigger editar imagen baner -->
@@ -61,7 +61,7 @@
   <!-- texto baner -->
 
 </section>
-<!-- fin banner -->
+<!-- fin sección banner -->
 
 <!-- Inicio seccion presentacion -->
 <section class="presentacion">
@@ -163,7 +163,7 @@
  <!-- Fin seccion experiencia -->
 
  <!-- Inicion seccion educación -->
-<section class=" container-fluid ">
+<section class=" container-fluid">
   <div class="container">
    <div class="row">
      <div class="col-4">
@@ -203,6 +203,12 @@
             </button>
           <!-- Button trigger logo argentina programa modal -->
 
+            <!-- Button trigger modal lapiz editar logo argentina-programa sección eduación -->
+              <button type="button" class="btn lapizEditarLogoArgentinaPrograma" data-bs-toggle="modal" data-bs-target="#editarLogoArgentinaProgramaModal">
+                <i class="fa-solid fa-pencil text-white"></i>
+              </button>
+            <!-- Button trigger modal lapiz editar logo argentina programa sección eduación -->
+
         </div>
 
      </div>
@@ -219,9 +225,17 @@
         <!-- Button trigger modal lapiz editar texto largo universida sección educación -->
 
       </div>
+
       <div class="textosSeProgramar">
         <h4>Certificado curso #SeProgramar</h4>
         <h5>Buenos Aires, 2022 </h5>
+
+        <!-- Button trigger modal lapiz editar texto largo se-programar sección educación -->
+        <button type="button" class="btn lapizEditarTextoLargoSeProgramar" data-bs-toggle="modal" data-bs-target="#EditarTextoLargoSeProgramarModal">
+          <i class="fa-solid fa-pencil text-white"></i>
+        </button>
+        <!-- Button trigger modal lapiz editar texto largo se-programar sección educación -->
+
       </div>
     </div>       
    </div>
@@ -586,22 +600,62 @@
 <!-- Modal logo argentina programa sección educación-->
 <div class="modal fade" id="logoArgentinaProgramaModal" tabindex="-1" aria-labelledby="logoArgentinaProgramaModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
+    
+      <div class="text-white">
         <h1 class="modal-title fs-5" id="logoArgentinaProgramaModalLabel">Certificado SéProgramar</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <img src="assents/img/certificadoSeProgramar.png" alt="certificado-Se-Programar" class="">       
+      </div>
+      <div class="">
+        <button type="button" class="btn text-white" data-bs-dismiss="modal">Cerrar</button>
+        
+      </div>
+    
+  </div>
+</div>
+<!-- Modal logo argentina programa sección educación-->
+
+<!-- Modal lapiz editar logo seProgramar sección educación -->
+<div class="modal fade" id="editarLogoArgentinaProgramaModal" tabindex="-1" aria-labelledby="editarLogoArgentinaProgramaModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarLogoArgentinaProgramaModalLabel">Editar Imagen</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="file" name="" id="">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        
+        <button type="button" class="btn btn-primary">Guardar</button>
       </div>
     </div>
   </div>
 </div>
-<!-- Modal logo argentina programa sección educación-->
+<!-- Modal lapiz editar logo seProgramar sección educación -->
+
+<!-- Modal lapiz editar texto largo se-programar sección educación -->
+<div class="modal fade" id="EditarTextoLargoSeProgramarModal" tabindex="-1" aria-labelledby="EditarTextoLargoSeProgramarModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="EditarTextoLargoSeProgramarModalLabel">Editar texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal lapiz editar texto largo se programar sección educación -->
 
 <!--MODALS SECCIÓN EDUCACIÓN -->
 

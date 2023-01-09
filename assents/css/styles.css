@@ -154,6 +154,13 @@ h1.intro{
     margin-right: -5rem;
 }/* estilo texto educación seccion educación */
 
+/* lapiz editar texto educacion */
+.lapizEditarTextoEducacion{ 
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: -5rem; 
+}/* lapiz editar texto educacion */
+
 /* logo universidad-del-quidío sección educación  */
 .estiloLogoUniversidadQuindio{    
     text-align: right;
@@ -172,11 +179,18 @@ h1.intro{
 
 /* logo seProgramar sección educación */
 .logoSeProgramar{    
-    margin-top: 10rem;  
+    margin-top: 11rem;  
     margin-left: 1rem; 
     width: 12rem;    
     position: absolute;    
 }/* logo seProgramar sección educación */
+
+/* lapiz editar logo ntn24 seccion educacion */
+.lapizEditarLogoArgentinaPrograma{
+    margin-top: 22.5rem;
+    margin-left: 18.5rem;
+    position: absolute;
+}/* lapiz editar logo ntn24 seccion educacion */
 
 /* lapiz editar logo ntn24 seccion educacion */
 .lapizEditarLogoUniversidad{      
@@ -185,27 +199,25 @@ h1.intro{
     position: absolute;
 }/* lapiz editar logo ntn24 seccion educacion */
 
-/* texto se-programar seccion educación */
+/* texto largo se-programar seccion educación */
 .textosSeProgramar{
     margin-top: 10rem;
     text-align: right; 
     margin-right: -1rem;
-}/* texto se-programar seccion educación */
+}/* texto largo se-programar seccion educación */
 
-/* lapiz editar texto educacion */
-.lapizEditarTextoEducacion{ 
-    position: absolute;
-    margin-left: 26rem;
-    margin-top: -5rem; 
-          
+/* lapiz editar texto largo se programar sección educacion */
+.lapizEditarTextoLargoSeProgramar{
+    margin-top: -6rem;
+    margin-left: 0rem;
+    position:absolute;
+}/* lapiz editar texto largo se programar sección educacion */
 
-}/* lapiz editar texto educacion */
-
-/* lapiz editar texto largo educacion */
+/* lapiz editar texto largo universidad sección educacion */
 .lapizEditarTextoLargoUniversidad{         
     margin-right: -2.4rem;
     margin-top: -10.5rem;       
-}/* lapiz editar texto largo educacion */
+}/* lapiz editar texto largo universidad sección educacion */
 
 /* SECCIÓN EDUCACIÓN */
 
@@ -216,7 +228,7 @@ h1.intro{
 /* texto skills seccion skills */
 .textoSkills{
     text-align: right;
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-right: -6rem;
 }/* texto skills seccion skills */
 
