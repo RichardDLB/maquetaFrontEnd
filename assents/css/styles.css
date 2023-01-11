@@ -98,11 +98,17 @@ h1.intro{
 /* SECCIÓN EXPERIENCIA */
 
 /* texto experiencia seccion experiencia */
-.estiloTextoExperiencia{
+.experiencia{
+      padding-top: 5rem;
+}/* texto experiencia seccion experiencia */
+
+/* texto experiencia sección experiencia */
+.textoExperiencia{
     text-align: right;
     margin-top: -1rem;
-    margin-right: -7rem;  
-}/* texto experiencia seccion experiencia */
+    margin-right: -7rem;
+}
+/* texto experiencia sección experiencia */
 
 /* logoNtn24 seccion experiencia */
 .logoNtn24{
@@ -157,7 +163,7 @@ h1.intro{
 /* lapiz editar texto educacion */
 .lapizEditarTextoEducacion{ 
     position: absolute;
-    margin-left: 26rem;
+    margin-left: 26.5rem;
     margin-top: -5rem; 
 }/* lapiz editar texto educacion */
 
@@ -223,28 +229,42 @@ h1.intro{
 
 
 
-/* SECCION SKILLS */
+/* SECCIÓN SKILLS */
+
+/* sección Hard & Soft Skills */
+.skills{
+    margin-top: -2rem;
+    margin-right: -7rem;
+}/* sección Hard & Soft Skills */
 
 /* texto skills seccion skills */
 .textoSkills{
     text-align: right;
     margin-top: 10rem;
-    margin-right: -6rem;
+    margin-right: -4rem;
 }/* texto skills seccion skills */
 
+/* SECCION SKILLS */
+
+
+/* SECCION PROYECTOS */
+
 /* texto proyectos seccion proyectos */
-.textoProyectos{
-    text-align: right;
+.textoProyectos{    
     margin-top: 5rem;
     margin-right: -6rem;
 }/* texto proyectos seccion proyectos */
 
+/* SECCION PROYECTOS */
+
+
+/* SECCION FOOTER */
 /* footer */
 .footeralfondo{
     margin-top: 100vh;
 }/* footer */
 
-/* SECCION SKILLS */
+/* SECCION FOOTER */
 
 
 

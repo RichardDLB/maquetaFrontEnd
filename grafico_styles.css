@@ -14,6 +14,16 @@ body{
     background-color: var(--background-color);
 }
 
+.container_grafico{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;        
+}
+
 /* title graphic ingles */
 .title_grafico{
     margin-top: 50px;
@@ -24,7 +34,7 @@ body{
 }
 
 /* title graphic HTML5 */
-.title_grafico2{
+.title_grafico1{
     margin-top: 50px;
     text-align: center;
     color: #ffff;
@@ -37,16 +47,16 @@ body{
     text-align: center;
     color: #ffff;
     padding-top: 16rem;
+    margin-left: -7rem;
 }
 
-.container_grafico{
-    width: 300px;
-    height: 150px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;        
+/* title graphic JS */
+.title_grafico3{
+    margin-top: 50px;
+    text-align: center;
+    color: #ffff;
+    padding-top: 2rem;
+    margin-left: -4rem;
 }
 
 .grafico{
@@ -64,6 +74,24 @@ body{
     border-radius: 50%;
     background-image: conic-gradient(var(--color_skill) 75%,
                                      var(--color_noSkill) 25%);
+    box-shadow: 1px, 1px, 5px, 1px, rgb(70, 70, 70); 
+}
+
+.grafico2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_skill) 75%,
+                                     var(--color_noSkill) 25%);
+    box-shadow: 1px, 1px, 5px, 1px, rgb(70, 70, 70); 
+}
+
+.grafico3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_skill) 50%,
+                                     var(--color_noSkill) 50%);
     box-shadow: 1px, 1px, 5px, 1px, rgb(70, 70, 70); 
 }
 
@@ -91,8 +119,7 @@ body{
 
 
 .social{
-    color: #fff;
-    font-family: 'Gill Sans';
+    color: #fff;    
     line-height: 0.5;
     margin-top: 16px; 
 }
