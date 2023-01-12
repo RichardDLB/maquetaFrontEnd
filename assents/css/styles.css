@@ -152,7 +152,9 @@ h1.intro{
 
 
 /* SECCIÓN EDUCACIÓN */
-
+.educacion{
+    text-align: right;
+}
 /* estilo texto educación seccion educación */
 .estiloTextoEducacion{
     text-align: right;
@@ -247,18 +249,50 @@ h1.intro{
 /* SECCION SKILLS */
 
 
-/* SECCION PROYECTOS */
+/* SECCIÓN PROYECTOS */
 
-/* texto proyectos seccion proyectos */
+/* sección proyectos */
+.proyectos{
+    text-align: right;
+}/* sección proyectos */
+
+/* texto proyectos sección proyectos */
 .textoProyectos{    
-    margin-top: 5rem;
-    margin-right: -6rem;
-}/* texto proyectos seccion proyectos */
+    margin-top: 7rem;
+    margin-right: -10rem;
+}/* texto proyectos sección proyectos */
 
-/* SECCION PROYECTOS */
+/* texto proyecto tateti */
+.textoTateti1{
+    text-align: left;
+    color: white;
+    padding-top: 17rem;
+    margin-left: -15rem;
+}/* texto proyecto tateti */
+
+/* texto proyecto tateti texto2 */
+.textoTateti2{
+    text-align: left;
+    color: white;
+    margin-top: -4.7rem;    
+}/* texto proyecto tateti texto2 */
+
+/* texto proyecto tateti texto2 */
+
+.textoTateti3{
+    padding-top: 17rem;
+    text-align: left;
+    color: white;
+    
+  
+}/* texto proyecto tateti texto2 */
+
+
+/* SECCIÓN PROYECTOS */
 
 
 /* SECCION FOOTER */
+
 /* footer */
 .footeralfondo{
     margin-top: 100vh;
