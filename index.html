@@ -23,54 +23,61 @@
 
 <body class="bg-black">
 
-<!-- inicio sección navbar -->
-    <nav class="navbar navbar-expand-lg bg-black">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">
-                <img src="assents/img/logos.png" alt="logo Argentina Programa" class="w-100">
-            </a>
-              <ul class="list-group list-group-horizontal ">
-                <li class="list-group-item"><a href="https://github.com/RichardDLB" target="_blank"><i class="fa-2x fa-brands fa-github text-white"></i></a></li>                
-                <li class="list-group-item"><a href="https://www.linkedin.com/in/richard-lopez-bolivar-30442b235/" target="_blank"><i class="fa-2x fa-brands fa-linkedin text-white"></i></a></li>
-                <li class="list-group-item"> 
-                  <!-- Button trigger modal -->
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
-                    <i class=" btnLogin fa-solid fa-user text-white"></i>
-                  </button>
-              </ul>           
-        </div>
-      </nav>
-<!-- fin sección navbar -->
+<!--section navbar -->
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="assents/img/logos.png" alt="logo_Argentina_Programa" class="w-100">
+        </a>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><a href="https://github.com/RichardDLB" target="_blank"><i class="fa-2x fa-brands fa-github text-white"></i></a></li>                
+          <li class="list-group-item"><a href="https://www.linkedin.com/in/richard-lopez-bolivar-30442b235/" target="_blank"><i class="fa-2x fa-brands fa-linkedin text-white"></i></a></li>
+          <li class="list-group-item"> 
+<!-- Button trigger modal -->
+          <div class="logoUser">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
+              <i class="fa-solid fa-user text-white"></i>
+            </button>
+          </div>
+<!-- Button trigger modal -->
+        </ul>           
+    </div>
+  </nav>
+<!--section navbar -->
 
-<!-- inicion sección banner -->
-<section class="banner">
+
+<!--section banner -->
+  <section class="" id="sectionBanner">
+    <div class="container-fluid row banner">
   
-  <!-- boton tigger editar imagen baner -->
-  <div class="btn-edit-baner">
-    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#btnEditImgBanerModal">
-      <i class="fa-solid fa-pencil text-white"></i>
-    </button>
-  </div>
-  <!-- boton tigger editar imagen baner -->
+  <!-- edit image button tigger-->
+    <div class="btn-edit-banner">
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#btnEditImgBanerModal">
+        <i class="fa-solid fa-pencil text-white"></i>
+      </button>
+    </div>
+  <!-- edit image button tigger -->
 
   <!-- texto baner -->
-  <div>
-    <h1 class="text-center intro ">
-      Hello I'm <br> Richard Lopez </br>
-      Full Web Stack Developer
-    </h1>
+    <div>
+      <h1 class="text-center intro  ">
+        Hello I'm <br> Richard Lopez </br>
+        Full Web Stack Developer
+      </h1>
+    </div>
+
   </div>
+
   <!-- texto baner -->
 
-</section>
+  </section>
 <!-- fin sección banner -->
 
 <!-- Inicio seccion presentacion -->
-<section class="container-fluid presentacion">
- <div class="container-fluid text-center">
-  <div class="row ">
+<section class="container-fluid row presentacion">
+ <div class="text-center">  
     <div class="col-4 fotoPerfil">
-       <img src="assents/img/fotoPerfil.jpg" alt="foto perfil" class=" rounded-circle img-fluid w-75">
+       <img src="assents/img/fotoPerfil.jpg" alt="foto-perfil" class=" rounded-circle img-fluid w-75">
       <h3 class="mt-3 text-white">Richard Lopez <br> Developer </h3>
     </div>
     <div class=" textoPresentacion col-8">
@@ -80,7 +87,7 @@
         personal and professional growth.
       </h4>
     </div>   
-  </div>
+  
 </div>
 
     <!-- lapiz editar imagen perfil seccion presentacion -->
@@ -111,7 +118,7 @@
 <!-- Fin seccion presentacion -->
 
 <!-- Inicion seccion experiencia -->
-<section class="container-fluid experiencia">
+<section class="container-fluid experiencia row">
   
    <div class="row">
      <div class="col-4 ">
@@ -165,7 +172,7 @@
  <!-- Fin seccion experiencia -->
 
  <!-- Inicion seccion educación -->
-<section class="container-fluid educación">
+<section class="container-fluid educación row">
   <div class="container">
    <div class="row">
      <div class="col-4">
@@ -246,7 +253,7 @@
  <!-- Fin seccion educacion -->
 
   <!-- Inicion seccion skills -->
-<section class="container-fluid skills">
+<section class="container-fluid skills row">
   <div class="container text-center row">    
     <div class="col-4">
         <h1 class=" container textoSkills text-white">
@@ -344,7 +351,7 @@
  <!-- Fin seccion skills -->
 
 <!-- Inicion seccion proyectos -->
-<section class="container-fluid proyectos">
+<section class="container-fluid proyectos row">
   <div class="container text-center row">   
      <div class="col-4">
       <h1 class=" container textoProyectos text-white">

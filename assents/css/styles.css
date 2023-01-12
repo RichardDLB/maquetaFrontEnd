@@ -1,17 +1,16 @@
-/* SECCION NAVBAR */
+/* SECTION NAVBAR */
 
-/* fondo redes */
+/* network background */
 .list-group{
     --bs-list-group-bg: transparent;
-}/* fondo redes */
+}/* network background */
 
-/* boton login */
-.btnLogin:hover{   
-    --bs-text-opacity: 1;
-    color: rgb(171, 146, 3)!important;   
-}/* boton login */
+/* login button */
+.btnLogin:hover{  
+    color: rgb(171, 146, 3)!important;       
+}/* login button */
 
-/* cambio de color redes */
+/* social media colors */
 .fa-2x.fa-brands.fa-github:hover{
     --bs-text-opacity: 1;
     color: rgb(171, 146, 3)!important;
@@ -23,39 +22,43 @@
 .fa-2x.fa-solid.fa-user-lock:hover{
     --bs-text-opacity: 1;
     color: rgb(171, 146, 3)!important;
-}/* fin cambio de color redes */
+}/* social media colors */
 
-/* SECCION NAVBAR */
+/* SECTION NAVBAR */
 
 
 
-/* SECCION BANER */
+/* SECTION BANER */
 
 /* boton edicion imagen baner */
-.btn-edit-baner{    
-    padding-top: 5rem;
-    float: right;
+.btn-edit-banner{    
+    padding-top: 7rem;
+    padding-left: 81rem;
 }/* boton edicion imagen baner */
 
-/* banner de fondo */
-section.banner{
-    margin-top: -5rem;
+/* banner backgroud */
+.banner{
     background-image: url(/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
+    margin-top: -7rem;
     width: 100%;
-    height: 89vh;
-    background-repeat: no-repeat;    
-    background-size: cover;   
-}/* banner de fondo */
+    height: 87vh;    
+    background-repeat: no-repeat;
+    background-size: cover;    
+}/* banner backgroud */
+
 
 /* texto banner */
-h1.intro{
-    padding-top: 13%;
-    font-size: 3rem;
-    text-decoration: none;
-    color: white;
+.intro{
+    padding-top: 2rem;
+    font-size: 3rem;    
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    -webkit-text-stroke-color: white ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke: 0.1%;
 }/* texto banner */
 
-/* SECCION BANER */
+/* SECTION BANER */
 
 
 
